@@ -16,12 +16,12 @@ const Projects = () => {
   ];
 
   return (
-    <section className="mb-8">
+    <section className="text-gray-500 mb-8">
       <h2 className="text-2xl font-bold mb-4">Project Experience</h2>
       {projects.map((project, index) => (
         <div key={index} className="mb-6">
           <h3 className="text-xl font-semibold">{project.title}</h3>
-          <p className="text-gray-600 mb-2">
+          <p className="text-gray-700 mb-2">
             {project.organization} | {project.date}
           </p>
           <ul className="list-disc list-inside">

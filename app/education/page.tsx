@@ -19,7 +19,7 @@ const Education = () => {
   ];
 
   return (
-    <section className="mb-8">
+    <section className="text-gray-500 mb-8">
       <h2 className="text-2xl font-bold mb-4">Education & Certifications</h2>
       <div className="mb-4">
         <h3 className="text-xl font-semibold mb-2">Education</h3>

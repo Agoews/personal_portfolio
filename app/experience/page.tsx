@@ -16,14 +16,14 @@ const Experience = () => {
   ];
 
   return (
-    <section className="text-gray-400 mb-8 min-h-screen ">
+    <section className="text-gray-500 mb-8 min-h-screen ">
       <h2 className="text-2xl font-bold mb-4">Professional Experience</h2>
       {experiences.map((exp, index) => (
         <div key={index} className="mb-6">
           <h3 className="text-xl font-semibold">
             {exp.title} - {exp.company}
           </h3>
-          <p className="text-gray-600 mb-2">{exp.date}</p>
+          <p className="text-gray-700 mb-2">{exp.date}</p>
           <ul className="list-disc list-inside">
             {exp.details.map((detail, i) => (
               <li key={i} className="text-gray-700">
